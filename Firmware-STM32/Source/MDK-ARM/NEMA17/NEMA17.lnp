@@ -3,7 +3,6 @@
 "nema17\status.o"
 "nema17\i2c-lcd.o"
 "nema17\uart.o"
-"nema17\flash.o"
 "nema17\main.o"
 "nema17\stm32f1xx_it.o"
 "nema17\stm32f1xx_hal_msp.o"

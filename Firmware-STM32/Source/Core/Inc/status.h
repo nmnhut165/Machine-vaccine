@@ -4,38 +4,38 @@
 #include "stm32f1xx_hal.h"
 
 /*  **	**	**	**	*/
-#define PORTA 		GPIOA
+#define PORTA 							GPIOA
 
-#define DIR_PIN 	GPIO_PIN_1
-#define STEP_PIN  GPIO_PIN_2
-#define M0 				GPIO_PIN_5
-#define M1 				GPIO_PIN_4
-#define M2	  		GPIO_PIN_3
+#define DIR_PIN 						GPIO_PIN_1
+#define STEP_PIN  					GPIO_PIN_2
+#define M0 									GPIO_PIN_5
+#define M1 									GPIO_PIN_4
+#define M2	  							GPIO_PIN_3
 
 #define SWITCH_START_PUMP   GPIO_PIN_6		/*INPUT*/
-#define SWITCH_STOP_PUMP   GPIO_PIN_7		/*INPUT*/
+#define SWITCH_STOP_PUMP    GPIO_PIN_7		/*INPUT*/
 
-#define CLAMP     GPIO_PIN_12		/*OUTPUT*/
-#define BLOCK   	GPIO_PIN_11		/*OUTPUT*/
+#define CLAMP     					GPIO_PIN_12		/*OUTPUT*/
+#define BLOCK   						GPIO_PIN_11		/*OUTPUT*/
 
 /*  **	**	**	**	*/
-#define PORTB 		GPIOB
+#define PORTB 							GPIOB
 
-#define Starts 		GPIO_PIN_11 	/*INPUT*/
-#define Stops  		GPIO_PIN_10	/*INPUT*/
+#define Starts 							GPIO_PIN_11 	/*INPUT*/
+#define Stops  							GPIO_PIN_10	/*INPUT*/
 
-#define INPUT    GPIO_PIN_1		/*INPUT*/
-#define OUTPUT   		GPIO_PIN_0		/*INPUT*/
+#define INPUT    						GPIO_PIN_1		/*INPUT*/
+#define OUTPUT  						GPIO_PIN_0		/*INPUT*/
 
-#define SWITCH_STOP_PUSH   GPIO_PIN_8		/*INPUT*/
+#define SWITCH_STOP_PUSH    GPIO_PIN_8		/*INPUT*/
 
-#define XILANH_PUMP_ENA   		GPIO_PIN_3		/*OUTPUT*/
-#define IN1_XL_PUMP    		GPIO_PIN_4		/*OUTPUT*/
-#define IN2_XL_PUMP   		GPIO_PIN_5		/*OUTPUT*/
+#define XILANH_PUMP_ENA   	GPIO_PIN_3		/*OUTPUT*/
+#define IN1_XL_PUMP    			GPIO_PIN_4		/*OUTPUT*/
+#define IN2_XL_PUMP   			GPIO_PIN_5		/*OUTPUT*/
 
-#define XILANH_PUSH_ENB   		GPIO_PIN_12		/*OUTPUT*/
-#define IN3_XL_PUSH    		GPIO_PIN_13		/*OUTPUT*/
-#define IN4_XL_PUSH  		GPIO_PIN_14		/*OUTPUT*/
+#define XILANH_PUSH_ENB   	GPIO_PIN_12		/*OUTPUT*/
+#define IN3_XL_PUSH    			GPIO_PIN_13		/*OUTPUT*/
+#define IN4_XL_PUSH  				GPIO_PIN_14		/*OUTPUT*/
 
 #define PRESSED  0
 

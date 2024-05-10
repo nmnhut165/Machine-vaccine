@@ -23,7 +23,6 @@
 /* USER CODE BEGIN Includes */
 #include "uart.h"
 #include "status.h"
-#include "flash.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

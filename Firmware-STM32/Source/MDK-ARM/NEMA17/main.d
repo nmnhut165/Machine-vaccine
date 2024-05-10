@@ -31,4 +31,4 @@ nema17/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
   ..\Core\Inc\uart.h E:\Keil\ C\Core\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   E:\Keil\ C\Core\ARM\ARMCLANG\Bin\..\include\string.h \
-  ..\Core\Inc\status.h ..\Core\Inc\flash.h
+  ..\Core\Inc\status.h
